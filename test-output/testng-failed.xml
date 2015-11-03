@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <parameter name="aCity" value="成都"/>
+  <parameter name="dCity" value="北京"/>
+  <test name="test1(failed)">
+    <parameter name="aCity" value="成都"/>
+    <parameter name="dCity" value="北京"/>
+    <classes>
+      <class name="com.qunar.testcase.mainstream.DomesticSingleTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="testGoOta"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="testCreateOrder"/>
+          <include name="testGoSingleFlightList"/>
+          <include name="afterSuite"/>
+          <include name="testBooking"/>
+        </methods>
+      </class> <!-- com.qunar.testcase.mainstream.DomesticSingleTest -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

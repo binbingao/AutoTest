@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1">
+  <test name="test1">
+    <parameter name="dCity" value="北京"/>
+    <parameter name="aCity" value="成都"/>
+    <classes>
+       <class name="com.qunar.testcase.mainstream.DomesticSingleTest"/>
+    </classes>
+  </test>
+</suite>
