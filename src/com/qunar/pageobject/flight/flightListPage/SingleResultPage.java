@@ -1,4 +1,4 @@
-package com.qunar.pageobject.flight;
+package com.qunar.pageobject.flight.flightListPage;
 
 import java.util.List;
 
@@ -7,6 +7,8 @@ import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.*;
+
+import com.qunar.pageobject.flight.SingleOTAPage;
 public class SingleResultPage {
 	AndroidDriver  driver;
 	public SingleResultPage(AndroidDriver driver){
@@ -19,6 +21,8 @@ public class SingleResultPage {
 	public WebElement flightList;
 	@FindBy(id="com.mqunar.atom.flight:id/atom_flight_domestic_flight_list_item1")
 	public List<WebElement> flights;
+	@FindBy(id="com.mqunar.atom.flight:id/atom_flight_btn_filter")
+	public WebElement goFilter;
 	public SingleOTAPage selectFlight(){
 		flights.get(2).click();
 		return new SingleOTAPage(driver);

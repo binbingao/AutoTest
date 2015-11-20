@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.qunar.pageobject.flight.flightListPage.SingleResultPage;
 import com.qunar.pageobject.flight.roundway.RoundResultPage;
 import com.qunar.utils.WaitElement;
 

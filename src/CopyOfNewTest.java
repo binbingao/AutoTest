@@ -20,7 +20,7 @@ import com.qunar.pageobject.flight.FlightMainActivity;
 import com.qunar.pageobject.flight.GoPayPage;
 import com.qunar.pageobject.flight.SelectCity;
 import com.qunar.pageobject.flight.SingleOTAPage;
-import com.qunar.pageobject.flight.SingleResultPage;
+import com.qunar.pageobject.flight.flightListPage.SingleResultPage;
 
 public class CopyOfNewTest {
 	AndroidDriver driver;

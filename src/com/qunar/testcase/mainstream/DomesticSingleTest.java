@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import com.qunar.pageobject.flight.FillOrderPage;
 import com.qunar.pageobject.flight.GoPayPage;
 import com.qunar.pageobject.flight.SingleOTAPage;
-import com.qunar.pageobject.flight.SingleResultPage;
+import com.qunar.pageobject.flight.flightListPage.SingleResultPage;
 import com.qunar.testcase.BaseTestCase;
 
 public class DomesticSingleTest extends BaseTestCase{
